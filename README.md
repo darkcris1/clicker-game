@@ -1,7 +1,8 @@
 # Simple Clicker Game
 
-Try this game at: https://clicker-game2.netlify.app/
+Try this game at: https://clickers-game.netlify.app/
 
-![Game Demo Picture](public/front-page.PNG)
+![Clicker front page](public/front-page.PNG)
 
 ![Game Demo Picture](public/game.png)
+
