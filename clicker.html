@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Be fast and click softly" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <title>Clicker Game</title>
+    <link rel="stylesheet" href="style/clicker.css" />
+    <script defer src="script/clicker.js"></script>
+  </head>
+  <body>
+    <div class="homePage">
+      <h1 class="logo">Clicker</h1>
+      <button id="788">Play</button>
+      <button id="highscore">High Score</button>
+      <button id="settings">Settings</button>
+    </div>
+    <div class="failedSection">
+      <section>
+        <div class="Score">
+          100
+        </div>
+        <div class="msg">
+          Hello
+        </div>
+        <input type="text" placeholder="Name..." data-name />
+        <button id="submit">Submit Score</button>
+        <button id="playAgain">Play Again</button>
+        <button id="home">Home</button>
+      </section>
+    </div>
+    <table id="board"></table>
+    <div class="highscoreSection">
+      <h1>Top 3 High Scores</h1>
+      <ul id="scores" class="scoreList">
+        <h1>No Score Yet</h1>
+      </ul>
+      <button id="home">Home</button>
+    </div>
+    <div class="settings">
+      <section>
+        <h1>Difficulty</h1>
+        <button class="active" id="easy">Easy</button>
+        <button id="medium">Medium</button>
+        <button id="hard">Hard</button>
+      </section>
+      <button id="home">Back</button>
+      <h1>Game Settings</h1>
+      <button id="sound">Sounds</button>
+      <button id="fullscreen">Fullscreen</button>
+    </div>
+  </body>
+</html>
